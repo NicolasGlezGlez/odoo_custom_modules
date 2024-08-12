@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_shipping_order_wizard" model="ir.actions.act_window">
+        <field name="name">Shipping Order Wizard</field>
+        <field name="res_model">shipping.order.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>  <!-- Esto asegura que se abra en una ventana modal -->
+    </record>
+
+     <!-- Acción para abrir la vista de las compañías de transporte -->
+     <record id="action_shipping_company" model="ir.actions.act_window">
+        <field name="name">Shipping company</field>
+        <field name="res_model">shipping.company</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first shipping company
+            </p>
+        </field>
+    </record>
+</odoo>

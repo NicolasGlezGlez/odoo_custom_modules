@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_shipping_order_wizard_form" model="ir.ui.view">
+        <field name="name">shipping.order.wizard.form</field>
+        <field name="model">shipping.order.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Shipping Order Wizard">
+                <group>
+                    <field name="shipping_company_id" widget="many2one" options="{'no_create': True}" placeholder="Select a Shipping Company"/>
+                    <field name="order_number"/>
+                </group>
+                <footer>
+                    <button string="Confirm" type="object" class="btn-primary" name="confirm_order"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Menú Principal para el Módulo -->
+    <menuitem id="menu_shipping_order" name="Shipping Orders" sequence="10" />
+
+    <!-- Submenú para acceder al wizard -->
+    <menuitem id="menu_shipping_order_wizard" name="Order Wizard" parent="menu_shipping_order" action="action_shipping_order_wizard" sequence="10" />
+
+    <!-- Menú de Configuración en nuestro Módulo -->
+    <menuitem id="menu_shipping_order_config" name="Configuration" parent="menu_shipping_order" sequence="20" />
+
+    <!-- Submenú para Compañías de Transporte -->
+    <menuitem id="menu_shipping_company" name="Shipping company" parent="menu_shipping_order_config" action="action_shipping_company" sequence="10"/>
+</odoo>

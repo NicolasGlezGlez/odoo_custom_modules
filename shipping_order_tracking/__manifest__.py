@@ -1,0 +1,20 @@
+{
+    "name": "Shipping Order Tracking",
+    "version": "14.0.0.0.1",
+    "category": "Productivity",
+    "summary": "",
+    "author": "Galvintec",
+    "contributors": ["Nicolas Gonzalez Gonzalez"],
+    "website": ["https://github.com/NicolasGlezGlez"],
+    "depends": ["base"],
+    "data": [
+        "data/data.xml",
+        "views/actions.xml",
+        "views/menu.xml",
+        "views/shipping_company.xml",
+        "views/shipping_order_wizard_views.xml",
+    ],
+    "installable": True,
+    "auto_install": False,
+    "license": "LGPL-3",
+}

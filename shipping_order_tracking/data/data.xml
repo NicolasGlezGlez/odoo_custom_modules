@@ -1,0 +1,61 @@
+<odoo>
+    <!-- Correos -->
+    <record id="shipping_company_correos" model="shipping.company">
+        <field name="name">Correos</field>
+        <field name="api_url">https://api.correos.es/track</field>
+    </record>
+
+    <!-- SEUR -->
+    <record id="shipping_company_seur" model="shipping.company">
+        <field name="name">SEUR</field>
+        <field name="api_url">https://api.seur.com/track</field>
+    </record>
+
+    <!-- DHL -->
+    <record id="shipping_company_dhl" model="shipping.company">
+        <field name="name">DHL</field>
+        <field name="api_url">https://api.dhl.com/track</field>
+    </record>
+
+    <!-- MRW -->
+    <record id="shipping_company_mrw" model="shipping.company">
+        <field name="name">MRW</field>
+        <field name="api_url">https://api.mrw.es/track</field>
+    </record>
+
+    <!-- UPS -->
+    <record id="shipping_company_ups" model="shipping.company">
+        <field name="name">UPS</field>
+        <field name="api_url">https://api.ups.com/track</field>
+    </record>
+
+    <!-- GLS -->
+    <record id="shipping_company_gls" model="shipping.company">
+        <field name="name">GLS</field>
+        <field name="api_url">https://api.gls-group.com/track</field>
+    </record>
+
+    <!-- Nacex -->
+    <record id="shipping_company_nacex" model="shipping.company">
+        <field name="name">Nacex</field>
+        <field name="api_url">https://api.nacex.es/track</field>
+    </record>
+
+    <!-- Envialia -->
+    <record id="shipping_company_envialia" model="shipping.company">
+        <field name="name">Envialia</field>
+        <field name="api_url">https://api.envialia.com/track</field>
+    </record>
+
+    <!-- FedEx -->
+    <record id="shipping_company_fedex" model="shipping.company">
+        <field name="name">FedEx</field>
+        <field name="api_url">https://api.fedex.com/track</field>
+    </record>
+
+    <!-- Zeleris -->
+    <record id="shipping_company_zeleris" model="shipping.company">
+        <field name="name">Zeleris</field>
+        <field name="api_url">https://api.zeleris.com/track</field>
+    </record>
+</odoo>
